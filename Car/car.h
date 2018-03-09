@@ -1,24 +1,28 @@
 class Car
 {
   private:
-    double x;
-    double y;
+    int x_coor;
+    int y_coor;
+    string init_heading;
+
 
   public:
     car();
-    car(double,double);
+    car(int,int);
 
-    void setinit_position(double,double);
+    void setinit_position(int,int);
+
+    void setOrigin(int,int);
 
     void setspeed(int);
 
     int getspeed();
 
-    void turn_right(int);
+    void turn_right(int,int);
 
-    void turn_left(int);
+    void turn_left(int,int);
 
-    void setHeading();
+    void setHeading(string);
 
     void getHeading();
 
@@ -27,5 +31,9 @@ class Car
     int  inc_speed(int);
 
     int dec_speed(int);
+
+    //int distance_traveled(int);
+
+    void reverse(int,int);
 
 };
