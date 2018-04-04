@@ -10,8 +10,8 @@ class baseball{
       string position;
       int Player_Num;
       double Bat_Avg;
-      int Hits;
-      int At_Bat;
+      double Hits;
+      double At_Bat;
 
 
   public:
@@ -20,7 +20,7 @@ class baseball{
       string getPosition(string) ;
       void setHits(string);
       void setAt_Bat(string);
-      int getHits();
-      int getAt_Bat();
+      double getHits();
+      double getAt_Bat();
       double getBat_Avg();
 };
