@@ -27,40 +27,40 @@ private:
 public:
   SolarSystem();
 
-  double setdistance_fromsun(string);
+  void setdistance_fromsun(string);
   double getdistance_fromsun();
 
-  int setplanet_spinspeed(string);
+  void setplanet_spinspeed(string);
   int getplanet_spinspeed();
 
-  int setplanet_rings(string);
+  void setplanet_rings(string);
   int getplanet_rings();
 
-  int setplanet_moons(string);
+  void setplanet_moons(string);
   int setplanet_moons();
 
-  int setplanet_orbitperiod(string);
+  void setplanet_orbitperiod(string);
   int setplanet_orbitperiod();
 
-  double setplanet_diameter(string);
+  void setplanet_diameter(string);
   double getplanet_diameter();
 
-  double setplanet_mass(string);
+  void setplanet_mass(string);
   double getplanet_mass();
 
-  double setplanet_gravity(string);
-  double get planet_gravity();
+  void setplanet_gravity(string);
+  double getplanet_gravity();
 
-  double setlbs_onplanet(string);
+  void setlbs_onplanet(string);
   double getlbs_onplanet()
 
-  double settemp(string);
+  void settemp(string);
   double gettemp();
 
-  double setcomposition(string);
+  void setcomposition(string);
   double getcomposition();
 
-  string getatmosphere(string);
+  void getatmosphere(string);
   string setatmosphere();
 
 };
