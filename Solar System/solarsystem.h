@@ -52,7 +52,7 @@ public:
   double getplanet_gravity();
 
   void setlbs_onplanet(string);
-  double getlbs_onplanet()
+  double getlbs_onplanet();
 
   void settemp(string);
   double gettemp();
